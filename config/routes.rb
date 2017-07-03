@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   # http://localhost:3000/articles/
   # http://localhost:3000/articles/new
   resources :articles
+
+  root to: 'articles#index'
 end
